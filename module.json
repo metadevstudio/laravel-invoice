@@ -1,0 +1,20 @@
+{
+    "name": "Invoices",
+    "alias": "invoices",
+    "title": "Faturas",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Invoices\\Providers\\InvoicesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [
+        "Companies"
+    ],
+    "directories": [
+        "admin",
+        "web"
+    ]
+}

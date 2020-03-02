@@ -1,0 +1,28 @@
+{
+    "name": "metadevstudio/invoices",
+    "description": "",
+    "authors": [
+        {
+            "name": "Meta Dev Studio",
+            "email": "contato@metadevstudio.com.br"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Invoices\\Providers\\InvoicesServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "require": {
+        "consoletvs/invoices": "^1.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Invoices\\": ""
+        }
+    }
+}
